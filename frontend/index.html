@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>STOCK PREDICTION</title>
+   <link rel="stylesheet" href="style.css">
+
+    
+    
+    
+    </head>
+
+<body>
+
+    <div class="container navbar">
+      <header>
+        <div class="lgo">
+          <h6>Mohit Soni | Sachin Gautam | Dhruv Rawat</h6>
+        </div>
+      
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Work</a></li>
+            <li><a href="#work">Details</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+
+    <div class="container main-info-section">
+        <div class="text">
+          <h1>
+            <span>S</span>
+            <span class="m-left">t</span>
+            <span class="m-left">o</span>
+            <span class="m-left">c</span>
+            <span class="m-left">k M</span>
+            <span class="m-left">a</span>
+            <span class="m-left">r</span>
+            <span class="m-left">k</span>
+            <span class="m-left">e</span>
+            <span class="m-left">t P</span>
+            <span class="m-left">r</span>
+            <span class="m-left">e</span>
+            <span class="m-left">d</span>
+            <span class="m-left">i</span>
+            <span class="m-left">c</span>
+            <span class="m-left">t</span>
+            <span class="m-left">i</span>
+            <span class="m-left">o</span>
+            <span class="m-left">n</span>
+            <br>
+            
+            
+          <p>STOCK PREDICTION</p>
+          <a href="#contact">About Us</a>
+        </div>
+          <div class="profile-image">
+            <img src="{{url_for('static',filename='img/profile-image.png')}}" alt="">
+          </div>
+      </div>
+
+
+      <div class="container about" id="about">
+        <h1>Project Details</h1>
+
+        <div class="about-me-info">
+        <p>
+          About the Frontend Project: Stock Market Visualization Dashboard
+This project is a full-stack Stock Sentiment Analysis application designed to give traders a quick and powerful insight into market mood. The backend is built with Python using the high-performance FastAPI framework, which powers an API that fetches recent, relevant news articles for any given stock ticker from the News API. Once the news data is retrieved, the core of the analysis is performed by TextBlob, a Natural Language Processing (NLP) library that reads each article's headline and description to calculate a sentiment score. This score is then averaged and classified as Positive, Negative, or Neutral. The entire user experience is handled by a clean and interactive frontend built with HTML, CSS, and JavaScript, which sends the user's request to the backend and dynamically displays the sentiment results without a page reload. By combining real-time news analysis with a visual TradingView chart, the tool offers a unique edge, helping investors understand the "why" behind price movements and make more informed, data-driven decisions.
+        
+<p>
+
+This web application serves as an intelligent tool for analyzing market sentiment surrounding publicly traded stocks. Rather than predicting exact stock prices, it leverages the power of Natural Language Processing (NLP) to gauge the emotional tone of recent news coverage. The core principle is that media sentiment is a significant, often leading, indicator of stock market movements. The user is greeted with a clean interface featuring a real-time TradingView chart for visual analysis. By simply entering a stock ticker symbol (like 'GOOGL' for Alphabet or 'TSLA' for Tesla), the application's backend is triggered to perform a comprehensive sentiment analysis, presenting the user with a final score classified as Positive, Negative, or Neutral.
+
+Technology Stack & Architecture ⚙️
+The project is built on a modern client-server architecture, ensuring a responsive user experience and efficient data processing.
+
+Backend (Server-Side Logic)
+
+Python: The foundational language chosen for its extensive data science and web development libraries.
+
+FastAPI: A high-performance Python framework used to build the API. It handles incoming requests from the user's browser, processes the logic, and sends back the results quickly and efficiently.
+
+News API: This external, third-party service is integrated to fetch the latest, most relevant news articles from thousands of global sources for any given stock symbol.
+
+TextBlob: A powerful Python library for NLP. It is the core engine of the analysis, responsible for reading the headlines and descriptions of the news articles and calculating a "polarity" score—a measure of how positive or negative the text is.
+
+Frontend (User Interface)
+
+HTML5: Provides the essential structure and content of the webpage, from the input form to the results display area.
+
+CSS3: Handles all visual styling, layout, and presentation, ensuring the application is intuitive and aesthetically pleasing.
+
+JavaScript: Brings the page to life by enabling interactivity. It captures the user's input, communicates with the backend FastAPI server using the Fetch API, and dynamically updates the page with the sentiment analysis results without requiring a page refresh.</p>
+          <br>
+          <br>
+        </p>
+        <p>
+          </p>
+        </div>
+        <img src="{{url_for('static',filename='img/dotted-shape.png')}}" alt="">
+      </div>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+    <div class="container skills" id="skills">
+        <h1>Tools & Env</h1>
+
+        <div class="skills-info">
+        <p>
+        This project is a full-stack Stock Sentiment Analysis application designed to give traders a quick and powerful insight into market mood. The backend is built with Python using the high-performance FastAPI framework, which powers an API that fetches recent, relevant news articles for any given stock ticker from the News API. Once the news data is retrieved, the core of the analysis is performed by TextBlob, a Natural Language Processing (NLP) library that reads each article's headline and description to calculate a sentiment score. This score is then averaged and classified as Positive, Negative, or Neutral. The entire user experience is handled by a clean and interactive frontend built with HTML, CSS, and JavaScript, which sends the user's request to the backend and dynamically displays the sentiment results without a page reload. By combining real-time news analysis with a visual TradingView chart, the tool offers a unique edge, helping investors understand the "why" behind price movements and make more informed, data-driven decisions.
+       </div>
+      <img src="img/dotted-shape.png" alt="">
+    </div>
+
+
+    <div class="container work" id="work">
+      <h1>Work</h1>
+      <div class="work-category">
+        </div>
+      
+   <br>
+   <br>
+            
+            <div class="tradingview-widget-container">
+  <div id="tradingview_6afb2"></div> 
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+</div>
+<br>
+   
+      <form id="predict-form" action="/predict" method="post">
+    <input type="text" name="symbol" placeholder="Enter stock symbol e.g. AAPL" required>
+
+    <button type="submit" id="predict-btn" class="active">Predict Sentiment</button>
+</form>
+    
+      <h2 class="ff"></h2>
+ 
+      </div>
+      <div class="category-animation hideCategory">  
+      </div>
+
+      <div class="category-project hideCategory">
+        
+      </div>
+    </div>
+
+    <br><br>
+    <div class="container contact" id="contact">
+      <h1>About Us</h1>
+      <div class="about-section">
+        
+        
+    
+ 
+  <p>We are Coders and Developers from MANAV RACHNA INTERNATIONAL INSTITUTE FOR RESEARCH AND STUDIES.</p>
+  </div>
+
+<h2 style="text-align:center" class="title">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2 class="ff">MOHIT SONI</h2>
+        <p class="title">Team Leader</p>
+        <p class="ff">ROLL NO:- 1/22/FET/BCS/070</p>
+        <p class="ff">mohit7soni2003@gmail.com</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="columnb">
+    <div class="card">
+      <div class="container">
+        <h2 class="ff">SACHIN GAUTAM</h2>
+        <p class="title">Team Member</p>
+        <p class="ff">ROLL NO: 1/22/FET/BCS/093</p>
+        <p class="ff">X</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2 class="ff">Dhruv Rawat</h2>
+        <p class="title">Team Member</p>
+        <p class="ff">ROLL NO: 1/22/FET/BCS/066</p>
+        <p class="ff">X</p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+      </form>
+      
+    </div>
+
+
+    
+    <script>
+        // Function to create the TradingView widget dynamically
+        function createTradingViewWidget(symbol) {
+            // Clear the old widget first to prevent duplicates
+            document.getElementById("tradingview_6afb2").innerHTML = "";
+
+            // Create the new widget with the user's symbol
+            new TradingView.widget({
+                "width": 1200,
+                "height": 750,
+                "symbol": symbol, // Use the dynamic symbol here
+                "timezone": "Asia/Kolkata",
+                "theme": "dark",
+                "style": "1",
+                "locale": "in",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "hide_top_toolbar": true,
+                "hide_legend": true,
+                "range": "YTD",
+                "hide_side_toolbar": false,
+                "save_image": false,
+                "details": true,
+                "calendar": true,
+                "container_id": "tradingview_6afb2"
+            });
+        }
+
+        // Initialize the chart with a default symbol when the page loads
+        document.addEventListener('DOMContentLoaded', (event) => {
+            createTradingViewWidget("NASDAQ:AAPL");
+        });
+
+        // Listen for the form submission
+        document.getElementById("predict-form").addEventListener("submit", async function(e) {
+            e.preventDefault(); // Stop the page from reloading
+            
+            const symbol = document.querySelector('input[name="symbol"]').value;
+            if (!symbol) return alert("Please enter a stock symbol");
+
+            // Update the TradingView chart with the new symbol
+            // We format it as EXCHANGE:SYMBOL. Defaulting to NASDAQ.
+            // A more advanced version might try to guess the exchange.
+            createTradingViewWidget(symbol.toUpperCase());
+            
+            // Show a loading message
+            document.querySelector(".ff").innerText = `Fetching sentiment for ${symbol}...`;
+
+            // Fetch the sentiment from your FastAPI backend
+            try {
+                const response = await fetch(`/sentiment/?symbol=${symbol}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                // Display the final result
+                document.querySelector(".ff").innerText =
+                    `Symbol: ${data.symbol}\nSentiment: ${data.sentiment}\nScore: ${data.score}`;
+            } catch (error) {
+                console.error('Error fetching sentiment:', error);
+                document.querySelector(".ff").innerText = "Error fetching sentiment. Please check the symbol or try again.";
+            }
+        });
+    </script>
+  </body>
+</html>
